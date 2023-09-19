@@ -1,6 +1,6 @@
 class script(object):
-    START_TXT = """Hey {},
-My Name is <a href=https://graph.org/file/daa4f28db6a44e754ba83.jpg>{}</a>, I'm here to provide you movies and series free of cost. You can add me in your group too..\n\nUse below buttons for more.."""
+    START_TXT = """ʜᴇʏ ᴛʜᴇʀᴇ {} 🙋🏻‍♂️
+ɪ'ᴍ <a href=https://graph.org/file/daa4f28db6a44e754ba83.jpg>ᴅᴏᴛᴇx ᴍᴏᴠɪᴇꜱ ʙᴏᴛ</a>, ᴛʜᴇ ʙᴏᴛ ꜰᴏʀ ʜᴇʟᴘɪɴɢ ᴛᴏ ꜱᴇᴀʀᴄʜ ɪɴᴅɪᴀɴ ʙᴏʟʟʏᴡᴏᴏᴅ, ᴛᴏʟʟʏᴡᴏᴏᴅ ᴏʀ ʜᴏʟʟʏᴡᴏᴏᴅ ᴍᴏᴠɪᴇꜱ. ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ɪᴍᴅʙ ꜰᴇᴀᴛᴜʀᴇ ᴀʟꜱᴏ."""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
