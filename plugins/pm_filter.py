@@ -73,10 +73,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"{file.file_name}", callback_data=f'files#{file.file_id}'
-                ),
-                InlineKeyboardButton(
-                    text=f"{get_size(file.file_size)}",
+                    text=f"{get_size(file.file_size)} - {file.file_name}",
                     callback_data=f'files_#{file.file_id}',
                 ),
             ]
@@ -99,7 +96,7 @@ async def next_page(bot, query):
         btn.append(
             [
                 InlineKeyboardButton("⬅️", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"Dotex Movies {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
+                InlineKeyboardButton(f"Dotex Hub {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
                 InlineKeyboardButton("➡️", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
