@@ -41,7 +41,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'MoviesV2')
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001587861988'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'dotexrequest')
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "𝗛𝗲𝗿𝗲'𝘀 𝗬𝗼𝘂𝗿 𝗦𝗲𝗮𝗿𝗰𝗵𝗲𝗱 𝗠𝗼𝘃𝗶𝗲..\n\n`• Title :- {file_caption}\n• Size :- {file_size}`\n\n➠ Team @DotexHub copyright.")
